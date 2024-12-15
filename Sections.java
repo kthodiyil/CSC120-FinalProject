@@ -1,15 +1,15 @@
-public class Sections {
+// public class Sections {
 
   
 
-    public Sections(){
+//     public Sections(){
         
   
-        //Set square counter to 0
-        squareCounter = 0;
-    }
+//         //Set square counter to 0
+//         squareCounter = 0;
+//     }
 
-    public void updateSquareCounter(){
-        this.squareCounter += 1;
-    }
-}
+//     public void updateSquareCounter(){
+//         this.squareCounter += 1;
+//     }
+// }

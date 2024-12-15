@@ -3,8 +3,6 @@ public class FullBoard{
     public ArrayList<String> squaresArray;
     public int squareCounter;
     
-
-
 public FullBoard(){
     squareCounter = 0;
     squaresArray = new ArrayList<>();
@@ -32,7 +30,7 @@ public FullBoard(){
 
 }
 
-public static void main(String[] args){
-    FullBoard board = new FullBoard();
-}
+// public static void main(String[] args){
+//     FullBoard board = new FullBoard();
+// }
 }
