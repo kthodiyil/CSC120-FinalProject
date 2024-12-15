@@ -1,10 +1,12 @@
 import java.util.ArrayList;
-public class fullBoard {
+public class FullBoard{
     public ArrayList<String> squaresArray;
+    public int squareCounter;
     
 
 
-public fullBoard(){
+public FullBoard(){
+    squareCounter = 0;
     squaresArray = new ArrayList<>();
     for(int i = 0; i < 23; i++){ //Creates an arrayList with the exact number of squares in the board game (23 squares)
         squaresArray.add(i, "Normal");
@@ -31,6 +33,6 @@ public fullBoard(){
 }
 
 public static void main(String[] args){
-    fullBoard board = new fullBoard();
+    FullBoard board = new FullBoard();
 }
 }
