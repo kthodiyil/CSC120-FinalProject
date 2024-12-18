@@ -1,22 +1,14 @@
 import java.awt.*;
 import javax.swing.JFrame;
 
+// This class contains the game map. Remember to change the pathway as described in the cheatsheet in order to make the image appear correctly after downloading it.
+
 public class DisplayMap extends Canvas {
 
     public void paint(Graphics g) {
         Toolkit t = Toolkit.getDefaultToolkit();
         Image i = t.getImage("/Users/kthodiyil/Downloads/CandylandMap.jpg");
-        //Image i = t.getImage("/Users/kthodiyil/Downloads/cat.gif");
         g.drawImage(i,0,0,this);
     }
-
-    // public static void main(String[] args) {
-    //     DisplayMap img = new DisplayMap();
-    //     JFrame f = new JFrame();
-    //     f.add(img);
-    //     f.setSize(1024, 768);
-    //     f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  // Close the window on exit
-    //     f.setVisible(true);
-    // }
 
 }

@@ -1,4 +1,6 @@
 import java.util.Random;
+//This is the dice class and it is in control of randomizing the dice roll throughout the game.
+
 public class Dice {
 
     public int rand;
@@ -7,11 +9,9 @@ public class Dice {
         Random randomNum = new Random();
         int rand = randomNum.nextInt(6);
         if(rand != 0){
-            //System.out.println(rand);
             return rand;
         }
         else{
-            //System.out.println(rand + 1);
             return rand + 1;
         }
         

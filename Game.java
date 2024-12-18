@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import javax.swing.JFrame;
 
+//This class executes the game and uses internal class functions as well as functions from other classes.
+
 public class Game {
 
     public void EndRollOrQuit(Scanner scan){

@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
+//This is the JellyBean player class and it holds the methods which control the use of special powers as well as player advancement and termination throughout the game.
+
 public class JellyBeanPlayer extends Player{
     public JellyBeanPlayer(Boolean specialMoveUsed){
         super(specialMoveUsed);
     }
-    // this super power can be used whenever the user chooses, but can only be used once.
     public void moveThree(){
         super.specialMoveUsed = true;
     }

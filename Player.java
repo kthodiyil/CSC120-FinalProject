@@ -1,3 +1,4 @@
+//This class contains some shared features which are inherited by the Jellybean and Lollipop classes.
 public class Player {
     public Boolean specialMoveUsed;
 

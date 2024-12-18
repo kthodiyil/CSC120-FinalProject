@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//This is the Lollipop player class and it holds the methods which control the use of special powers as well as player advancement and termination throughout the game.
+
 public class LollipopPlayer extends Player{
     public LollipopPlayer(Boolean specialMoveUsed){
         super(specialMoveUsed);
